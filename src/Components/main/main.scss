@@ -1,0 +1,167 @@
+.super-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 45vw;
+    width: 45vw;
+    .cards-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      height: 100%;
+      aspect-ratio: 3/2;
+      .card1 {
+        position: absolute;
+        background-image: url("https://images.unsplash.com/photo-1542291026-7eec264c27ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        border-radius: 20px;
+        aspect-ratio: 3/2;
+      }
+      .card2 {
+        position: absolute;
+        background-image: url("https://images.unsplash.com/photo-1542241647-9cbbada2b309?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2Njg4MDg2OA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        border-radius: 20px;
+        aspect-ratio: 3/2;
+      }
+
+      .card3 {
+        position: absolute;
+        background-image: url("https://images.unsplash.com/photo-1542451542907-6cf80ff362d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1NTU3NDUxOA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        border-radius: 20px;
+        aspect-ratio: 3/2;
+      }
+
+      .card4 {
+        position: absolute;
+        background-image: url("https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2Njk2MDczMQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        border-radius: 20px;
+        aspect-ratio: 3/2;
+      }
+
+      .card5 {
+        position: absolute;
+        background-image: url("https://images.unsplash.com/photo-1566835054228-3f3bb20465a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2Njk2MDgzOA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        border-radius: 20px;
+        aspect-ratio: 3/2;
+      }
+
+      .card6 {
+        position: absolute;
+        background-image: url("https://images.unsplash.com/photo-1651588832542-c6530ad7984a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2Njk2MTAwMA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        border-radius: 20px;
+        aspect-ratio: 3/2;
+      }
+
+      .card7 {
+        position: absolute;
+        background-image: url("https://images.unsplash.com/photo-1666883720215-87cc1ad0bc97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2Njk2MTA1NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        border-radius: 20px;
+        aspect-ratio: 3/2;
+      }
+
+      .card8 {
+        position: absolute;
+        background-image: url("https://images.unsplash.com/photo-1666914220840-942adc2d3529?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2Njk2MTExNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        border-radius: 20px;
+        aspect-ratio: 3/2;
+      }
+
+      .card9 {
+        position: absolute;
+        background-image: url("https://images.unsplash.com/photo-1666795599746-0f62dfa29a07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2Njk2MTE2MA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        border-radius: 20px;
+        aspect-ratio: 3/2;
+      }
+
+      .card10 {
+        position: absolute;
+        background-image: url("https://images.unsplash.com/photo-1662842611249-cd4784b216b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2Njk2MTIwOQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        border-radius: 20px;
+        aspect-ratio: 3/2;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      .left-button {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+      }
+      .right-button {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+div[data-status="previous"] {
+  height: 100px !important;
+  transform: translateX(-500px);
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+div[data-status="next"] {
+  height: 100px !important;
+  transform: translateX(500px);
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+div[data-status="unknown"] {
+  scale: 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+div[data-status="active"] {
+  transition: 0.5s;
+}
+
+div[data-status="last"] {
+  transition: 0.5s;
+}
+
+div[data-status="first"] {
+  transition: 0.5s;
+}
